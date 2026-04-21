@@ -2,4 +2,22 @@
 
 * {
 	font-family: Arial;
+	background-color: #fbf8f1;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	font-family: Pattaya;
+	font-size: 110px;
+	color: #503f3f;
+
+}
+
+a {
+	font-family: Cal Sans;
+	text-decoration: none;
+	font-size: 55px;
+	color: #074180;
+	text-align: center;
 }
