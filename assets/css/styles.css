@@ -1,29 +1,62 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+	font-family: Cal Sans, Luxurious Script;
 	background-color: #f2ebd9;
 }
-
 h1 {
 	text-align: center;
-	margin-top: 40px;
-	font-family: Pattaya;
-	font-size: 110px;
-	color: #503f3f;
-
+    margin-top: 20px;
+    font-family: Sirivennela;
+    font-size: 140px;
+    color: #503f3f;
 }
 
-a {
+
+.blue-link {
 	font-family: Cal Sans;
-	text-decoration: none;
-	font-size: 55px;
-	color: #074180;
-	text-align: center;
+    text-decoration: none;
+    font-size: 55px;
+    color: #074180;
+    text-align: center;
 }
 
-h2 {
-	font-family: Luxurious Script;
-	text-align: center;
-	color: #6d0606;
+.blue-link:hover {
+    color: lightblue;
+    transform: scale(1.1);
 }
+
+.red-link {
+	font-family: Luxurious Script;
+    text-decoration: none;
+    font-size: 60px;
+    color: #6d0606;
+    text-align: center;
+}
+.red-link:hover {
+    color: #d48181;
+    transform: scale(1.1);
+}
+
+.purple-link {
+	font-family: Cormorant Unicase;
+    text-decoration: none;
+    font-size: 55px;
+    color: #551d8d;
+    text-align: center;
+}
+
+.mood-grid {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 across */
+    grid-template-rows: repeat(2, 1fr);    /* 2 down */
+
+    align-items: center;
+    justify-items: center;
+}
+

@@ -1,0 +1,20 @@
+* {
+	font-family: Arial;
+	background-color: #2d0d5d;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 175px;
+	font-family: Cormorant Unicase;
+	font-size: 175px;
+	color: #d2aff0;
+
+}
+
+p {
+    text-align: center;
+    color: #d8e7f5;
+	font-family: Google Sans Flex;
+	font-size: 25px;
+}
