@@ -1,20 +1,21 @@
 * {
 	font-family: Arial;
-	background-color: #085597;
+	background-color: #f2d73c;
 }
 
 h1 {
 	text-align: center;
 	margin-top: 175px;
-	font-family: Cal Sans;
+	font-family: Luckiest Guy;
 	font-size: 175px;
-	color: #afd2f0;
+	font-weight: 300;
+	color: #ffffff;
 
 }
 
 p {
     text-align: center;
-    color: #d8e7f5;
+    color: #3f2c0b;
 	font-family: Google Sans Flex;
 	font-size: 25px;
 }

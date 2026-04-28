@@ -3,6 +3,8 @@
 * {
 	font-family: Cal Sans, Luxurious Script;
 	background-color: #e5e5e5;
+    background: url("..//img/color.jpg");
+    background-size: cover;
 }
 h1 {
 	text-align: center;
@@ -78,7 +80,7 @@ h1 {
 }
 
 .yellow-link {
-    font-family: Cormorant Unicase;
+    font-family: Luckiest Guy;
     text-decoration: none;
     font-size: 55px;
     color: #f2c13c;
