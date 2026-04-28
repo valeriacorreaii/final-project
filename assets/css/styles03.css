@@ -1,0 +1,19 @@
+* {
+	font-family: Arial;
+	background-color: #6d0606;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 175px;
+	font-family: Luxurious Script;
+	font-size: 200px;
+	color: #bc7575;
+    font-weight: 200;
+
+}
+
+p {
+    text-align: center;
+    color: #d8e7f5;
+}
