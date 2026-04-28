@@ -2,14 +2,14 @@
 
 * {
 	font-family: Cal Sans, Luxurious Script;
-	background-color: #f2ebd9;
+	background-color: #e5e5e5;
 }
 h1 {
 	text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: Sirivennela;
     font-size: 140px;
-    color: #503f3f;
+    color: #2c2c2d;
 }
 
 
@@ -17,7 +17,7 @@ h1 {
 	font-family: Cal Sans;
     text-decoration: none;
     font-size: 55px;
-    color: #074180;
+    color: #075090;
     text-align: center;
 }
 
@@ -46,11 +46,55 @@ h1 {
     text-align: center;
 }
 
-.mood-grid {
-    width: 800px;
+.purple-link:hover {
+    color: #d2aff0;
+    transform: scale(1.1);
+}
+
+.green-link {
+    font-family: Cormorant Unicase;
+    text-decoration: none;
+    font-size: 55px;
+    color: #115f27;
+    text-align: center;
+}
+
+.green-link:hover {
+    color: #74c68b;
+    transform: scale(1.1);
+}
+
+.gray-link {
+    font-family: Cormorant Unicase;
+    text-decoration: none;
+    font-size: 55px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.gray-link:hover {
+    color: #b3b3b3;
+    transform: scale(1.1);
+}
+
+.yellow-link {
+    font-family: Cormorant Unicase;
+    text-decoration: none;
+    font-size: 55px;
+    color: #f2c13c;
+    text-align: center;
+}
+
+.yellow-link:hover {
+    color: #fff0b3;
+    transform: scale(1.1);
+}
+
+.color-grid {
+    width: 1200px;
     height: 400px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 across */
@@ -60,3 +104,25 @@ h1 {
     justify-items: center;
 }
 
+.color-link {
+    width: 220px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.10);
+
+    transition: all .3s ease;
+
+    text-decoration: none;
+}
+
+.color-link:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0,0,0,.18);
+}
