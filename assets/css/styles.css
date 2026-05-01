@@ -3,7 +3,7 @@
 * {
 	font-family: Cal Sans, Luxurious Script;
 	background-color: #e5e5e5;
-    background: url("..//img/color.jpg");
+    background: url("..//img/website.jpg");
     background-size: cover;
 }
 h1 {
@@ -11,7 +11,7 @@ h1 {
     margin-top: 30px;
     font-family: Sirivennela;
     font-size: 140px;
-    color: #2c2c2d;
+    color: #505051;
 }
 
 
@@ -45,6 +45,7 @@ h1 {
 	font-family: Cormorant Unicase;
     text-decoration: none;
     font-size: 55px;
+    font-weight: bold;
     color: #551d8d;
     text-align: center;
 }
@@ -55,7 +56,7 @@ h1 {
 }
 
 .green-link {
-    font-family: Cormorant Unicase;
+    font-family: Amarante;
     text-decoration: none;
     font-size: 55px;
     color: #115f27;
@@ -83,7 +84,7 @@ h1 {
 .yellow-link {
     font-family: Luckiest Guy;
     text-decoration: none;
-    font-size: 55px;
+    font-size: 50px;
     color: #f2c13c;
     text-align: center;
 }
