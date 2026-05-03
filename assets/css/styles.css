@@ -2,77 +2,76 @@
 
 * {
 	font-family: Cal Sans, Luxurious Script;
-	background-color: #e5e5e5;
-    background: url("..//img/website.jpg");
+	background-color: #2e1e0f;
     background-size: cover;
 }
 h1 {
 	text-align: center;
-    margin-top: 30px;
-    font-family: Sirivennela;
-    font-size: 140px;
-    color: #505051;
+    margin-top: 60px;
+    margin-bottom: 62px;
+    font-family: Rubik Microbe;
+    font-size: 165px;
+    font-weight: 575;
+    color: #f8ece2;
 }
 
 
 .blue-link {
-	font-family: Cal Sans;
+	font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 55px;
-    color: #075090;
+    font-size: 50px;
+    color: #322111;
     text-align: center;
 }
 
 .blue-link:hover {
-    color: lightblue;
+    color: rgb(130, 172, 199);
     transform: scale(1.1);
 }
 
 .red-link {
-	font-family: Luxurious Script;
+	font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 60px;
-    font-weight: bold;
-    color: #6d0606;
+    font-size: 50px;
+    color: #322111;
     text-align: center;
 }
 .red-link:hover {
-    color: #d48181;
+    color: #a12e2e;
     transform: scale(1.1);
 }
 
 .purple-link {
-	font-family: Cormorant Unicase;
+	font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 55px;
-    font-weight: bold;
-    color: #551d8d;
+    font-size: 45px;
+    color: #322111;
     text-align: center;
 }
 
 .purple-link:hover {
-    color: #d2aff0;
+    color: #a579cc;
     transform: scale(1.1);
 }
 
 .green-link {
-    font-family: Amarante;
+    font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 55px;
-    color: #115f27;
+    font-size: 50px;
+    color: #322111;
     text-align: center;
 }
 
 .green-link:hover {
-    color: #74c68b;
+    color: #417550;
     transform: scale(1.1);
 }
 
 .gray-link {
-    font-family: Cormorant Unicase;
+    font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 55px;
-    color: #4d4d4d;
+    font-size: 50px;
+    color: #322111;
     text-align: center;
 }
 
@@ -82,15 +81,15 @@ h1 {
 }
 
 .yellow-link {
-    font-family: Luckiest Guy;
+    font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 50px;
-    color: #f2c13c;
+    font-size: 45px;
+    color: #322111;
     text-align: center;
 }
 
 .yellow-link:hover {
-    color: #fff0b3;
+    color: #f5de86;
     transform: scale(1.1);
 }
 
@@ -116,7 +115,7 @@ h1 {
     justify-content: center;
     align-items: center;
 
-    background: white;
+    background: #f8efe6;
     border-radius: 25px;
 
     box-shadow: 0 10px 25px rgba(0,0,0,.10);

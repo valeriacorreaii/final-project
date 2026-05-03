@@ -5,11 +5,11 @@
 
 h1 {
 	text-align: center;
-	margin-top: 175px;
+	margin-top: 155px;
+	margin-bottom: 30px;
 	font-family: Cal Sans;
 	font-size: 175px;
 	color: #afd2f0;
-
 }
 
 p {
@@ -17,4 +17,19 @@ p {
     color: #d8e7f5;
 	font-family: Google Sans Flex;
 	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: Sirivennela;
+	text-align: center;
+	font-size: 50px;
+	color: #d8e7f5;
+}
+
+.purple-link {
+	font-family: Cal Sans;
+	text-decoration: none;
+	text-align: center;
+	color
 }
