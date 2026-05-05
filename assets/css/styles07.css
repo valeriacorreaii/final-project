@@ -1,29 +1,96 @@
 * {
-	font-family: Arial;
-	background-color: #f2d73c;
+    font-family: Arial;
+    background-color: #f2d73c;
 }
 
 .home-link {
-	font-family: Cal Sans;
-	color: #d8e7f5;
-	font-size: 25px;
-	margin-top: 10px;
-	margin-left: 10px;
+    font-family: Cal Sans;
+    color: #f3f3ed;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 h1 {
-	text-align: center;
-	margin-top: 175px;
-	font-family: Luckiest Guy;
-	font-size: 175px;
-	font-weight: 300;
-	color: #ffffff;
-
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -15px;
+    font-family: Luckiest Guy;
+    font-size: 185px;
+    color: #ffffff;
 }
 
-p {
+.pronounciation {
+    font-family: Arial;
+    font-size: 25px;
+    color: #9a9c90;
+    margin-bottom: 60px;
     text-align: center;
-    color: #3f2c0b;
-	font-family: Google Sans Flex;
-	font-size: 25px;
+}
+
+.definition {
+    
+    color: #fefefe;
+    font-family: Stack Sans Notch;
+    font-size: 27px;
+    margin-bottom: 170px;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-offset: 60px;
+	text-decoration-color: #d2d370;
+}
+
+
+h2 {
+    font-family: Rubik Dirt;
+    text-align: left;
+    font-size: 60px;
+	font-weight: normal;
+    color: #f3f3ee;
+}
+
+.touch-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+	margin-top: 70px;
+	flex-wrap: wrap;
+}
+
+.touch-row h2 {
+	margin: 0;
+}
+
+.mix-button {
+	width: 160px;
+	height: 80px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-decoration: none;
+	border-radius: 20px;
+
+	font-size: 35px;
+	font-weight: normal;
+	font-family: Rubik Dirt;
+
+	transition: .3s ease;
+}
+
+.red-button {
+    background-color: #dfdbb2;
+    color: #333345;  
+}
+
+.yellow-button {
+    background-color: #dfdbb2;
+    color: #333345;
+}
+
+.mix-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
 }
