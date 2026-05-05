@@ -13,16 +13,25 @@
 
 h1 {
 	text-align: center;
-	margin-top: 175px;
+	margin-top: 135px;
 	font-family: Amarante;
-	font-size: 175px;
+	font-size: 185px;
 	color: #6baf78;
-
+	margin-bottom: 10px;
 }
 
 p {
     text-align: center;
     color: #eaf5d8;
-	font-family: Google Sans Flex;
+	font-family: Stack Sans Notch;
 	font-size: 25px;
+}
+
+
+.pronounciation {
+    font-family: Arial;
+    font-size: 25px;
+    color: #90969c;
+    margin-bottom: 60px;
+    text-align: center;
 }
