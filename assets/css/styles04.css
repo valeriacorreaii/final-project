@@ -1,28 +1,37 @@
 * {
-	font-family: Arial;
-	background-color: #2d0d5d;
+    font-family: Arial;
+    background-color: #2d0d5d;
 }
 
 .home-link {
-	font-family: Cal Sans;
-	color: #d8e7f5;
-	font-size: 25px;
-	margin-top: 10px;
-	margin-left: 10px;
+    font-family: Cal Sans;
+    color: #d8e7f5;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 h1 {
-	text-align: center;
-	margin-top: 175px;
-	font-family: Cormorant Unicase;
-	font-size: 175px;
-	color: #d2aff0;
+    text-align: center;
+    margin-top: 120px;
+	margin-bottom: 5px;
+    font-family: Cormorant Unicase;
+    font-size: 200px;
+    color: #d2aff0;
 
 }
 
 p {
     text-align: center;
     color: #d8e7f5;
-	font-family: Google Sans Flex;
-	font-size: 25px;
+    font-family: Stack Sans Notch;
+    font-size: 25px;
+}
+
+.pronounciation {
+    font-family: Arial;
+    font-size: 25px;
+    color: #90969c;
+    margin-bottom: 60px;
+    text-align: center;
 }
