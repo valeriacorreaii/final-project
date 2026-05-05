@@ -16,10 +16,10 @@
 
 h1 {
 	text-align: center;
-    margin-top: 60px;
-    margin-bottom: 62px;
+    margin-top: 140px;
+    margin-bottom: 70px;
     font-family: Rubik Microbe;
-    font-size: 165px;
+    font-size: 175px;
     font-weight: 575;
     color: #f8ece2;
 }
@@ -28,7 +28,7 @@ h1 {
 .blue-link {
 	font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 55px;
     color: #322111;
     text-align: center;
 }
@@ -41,7 +41,7 @@ h1 {
 .red-link {
 	font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 55px;
     color: #322111;
     text-align: center;
 }
@@ -50,49 +50,10 @@ h1 {
     transform: scale(1.1);
 }
 
-.purple-link {
-	font-family: Rubik Dirt;
-    text-decoration: none;
-    font-size: 45px;
-    color: #322111;
-    text-align: center;
-}
-
-.purple-link:hover {
-    color: #a579cc;
-    transform: scale(1.1);
-}
-
-.green-link {
-    font-family: Rubik Dirt;
-    text-decoration: none;
-    font-size: 50px;
-    color: #322111;
-    text-align: center;
-}
-
-.green-link:hover {
-    color: #417550;
-    transform: scale(1.1);
-}
-
-.gray-link {
-    font-family: Rubik Dirt;
-    text-decoration: none;
-    font-size: 50px;
-    color: #322111;
-    text-align: center;
-}
-
-.gray-link:hover {
-    color: #b3b3b3;
-    transform: scale(1.1);
-}
-
 .yellow-link {
     font-family: Rubik Dirt;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 50px;
     color: #322111;
     text-align: center;
 }
@@ -104,28 +65,28 @@ h1 {
 
 .color-grid {
     width: 1200px;
-    height: 400px;
+    height: 200px;
     margin: auto;
     margin-top: 20px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 across */
-    grid-template-rows: repeat(2, 1fr);    /* 2 down */
+    
 
     align-items: center;
     justify-items: center;
 }
 
 .color-link {
-    width: 220px;
-    height: 120px;
+    width: 250px;
+    height: 150px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     background: #f8efe6;
-    border-radius: 25px;
+    border-radius: 35px;
 
     box-shadow: 0 10px 25px rgba(0,0,0,.10);
 
