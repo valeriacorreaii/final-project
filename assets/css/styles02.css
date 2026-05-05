@@ -3,21 +3,38 @@
 	background-color: #085597;
 }
 
+.home-link {
+	font-family: Cal Sans;
+	color: #d8e7f5;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
 h1 {
 	text-align: center;
-	margin-top: 155px;
-	margin-bottom: 30px;
+	margin-top: 110px;
+	margin-bottom: -10px;
 	font-family: Cal Sans;
 	font-size: 175px;
 	color: #afd2f0;
 }
 
-p {
-    text-align: center;
-    color: #d8e7f5;
+.pronounciation {
+	font-family: Arial;
+	font-size: 25px;
+	color: #90969c;
+	margin-bottom: 50px;
+	margin-left: 480px;
+}
+
+.definition {
+    
+    color: #c7cdd3;
 	font-family: Google Sans Flex;
 	font-size: 25px;
 	margin-bottom: 20px;
+	margin-left: 480px;
 }
 
 h2 {

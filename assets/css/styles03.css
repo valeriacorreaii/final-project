@@ -3,6 +3,14 @@
 	background-color: #6d0606;
 }
 
+.home-link {
+	font-family: Cal Sans;
+	color: #d8e7f5;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
 h1 {
 	text-align: center;
 	margin-top: 175px;
